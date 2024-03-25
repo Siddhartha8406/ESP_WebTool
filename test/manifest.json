@@ -5,7 +5,7 @@
     "funding_url": "https://esphome.io/guides/supporters.html",
     "builds": [
       {
-        "chipFamily": "BlinkWhenConnected.ino",
+        "chipFamily": "ESP32",
         "parts": [
           { "path": "bootloader.bin", "offset": 4096 },
           { "path": "partitions.bin", "offset": 32768 },
@@ -14,30 +14,30 @@
         ]
       },
       {
-        "chipFamily": "BlinkWhenConnected.ino-C3",
+        "chipFamily": "ESP32-C3",
         "parts": [
           { "path": "bootloader.bin", "offset": 0 },
           { "path": "partitions.bin", "offset": 32768 },
           { "path": "boot_app0.bin", "offset": 57344 },
-          { "path": "BlinkWhenConnected.ino-c3.bin", "offset": 65536 }
+          { "path": "BlinkWhenConnected.ino.bin", "offset": 65536 }
         ]
       },
       {
-        "chipFamily": "BlinkWhenConnected.ino-S2",
+        "chipFamily": "ESP32-S2",
         "parts": [
           { "path": "bootloader.bin", "offset": 4096 },
           { "path": "partitions.bin", "offset": 32768 },
           { "path": "boot_app0.bin", "offset": 57344 },
-          { "path": "BlinkWhenConnected.ino-s2.bin", "offset": 65536 }
+          { "path": "BlinkWhenConnected.ino.bin", "offset": 65536 }
         ]
       },
       {
-        "chipFamily": "BlinkWhenConnected.ino-S3",
+        "chipFamily": "ESP32-S3",
         "parts": [
           { "path": "bootloader.bin", "offset": 4096 },
           { "path": "partitions.bin", "offset": 32768 },
           { "path": "boot_app0.bin", "offset": 57344 },
-          { "path": "BlinkWhenConnected.ino-s3.bin", "offset": 65536 }
+          { "path": "BlinkWhenConnected.ino.bin", "offset": 65536 }
         ]
       }
     ]
