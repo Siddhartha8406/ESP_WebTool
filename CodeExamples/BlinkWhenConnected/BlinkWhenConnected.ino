@@ -13,6 +13,18 @@
     YouTube: https://www.youtube.com/brianlough
     Tindie: https://www.tindie.com/stores/brianlough/
     Twitter: https://twitter.com/witnessmenow
+    "/Users/siddharthareddy/Library/Arduino15/packages/esp32/tools/esptool_py/4.5.1/esptool" --chip esp32 --port "/dev/cu.usbserial-0001" --baud 921600  --before default_reset --after hard_reset write_flash  -z --flash_mode dio --flash_freq 80m --flash_size 4MB 
+    0x1000 "/private/var/folders/5n/nm0r0v2d0hx6s_x14zy5mjx40000gn/T/arduino/sketches/6D27038D6401AB08C059071F672BFC3B/BlinkWhenConnected.ino.bootloader.bin"
+    0x1000 "/private/var/folders/5n/nm0r0v2d0hx6s_x14zy5mjx40000gn/T/arduino/sketches/CCA8ACA82BE276C03B8C6DF11BC94849/SerialHelloWorld.ino.bootloader.bin"
+
+    0x8000 "/private/var/folders/5n/nm0r0v2d0hx6s_x14zy5mjx40000gn/T/arduino/sketches/6D27038D6401AB08C059071F672BFC3B/BlinkWhenConnected.ino.partitions.bin"
+    0x8000 "/private/var/folders/5n/nm0r0v2d0hx6s_x14zy5mjx40000gn/T/arduino/sketches/CCA8ACA82BE276C03B8C6DF11BC94849/SerialHelloWorld.ino.partitions.bin" 
+
+    0xe000 "/Users/siddharthareddy/Library/Arduino15/packages/esp32/hardware/esp32/2.0.11/tools/partitions/boot_app0.bin"
+    0xe000 "/Users/siddharthareddy/Library/Arduino15/packages/esp32/hardware/esp32/2.0.11/tools/partitions/boot_app0.bin"
+
+    0x10000 "/private/var/folders/5n/nm0r0v2d0hx6s_x14zy5mjx40000gn/T/arduino/sketches/6D27038D6401AB08C059071F672BFC3B/BlinkWhenConnected.ino.bin"
+    0x10000 "/private/var/folders/5n/nm0r0v2d0hx6s_x14zy5mjx40000gn/T/arduino/sketches/CCA8ACA82BE276C03B8C6DF11BC94849/SerialHelloWorld.ino.bin" 
  *******************************************************************/
 
 #include "WiFi.h"
